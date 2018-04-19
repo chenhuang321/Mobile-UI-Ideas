@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Android Pocket Guide</string>
+    <string name="introduction">
+        This pocket guide helps you to learn about the vocabularies related to the
+        Android Development Fragment Work. Plsase click the button below!
+    </string>
+    <string-array name="vocabulary_list">
+        <item>activity</item>
+        <item>AVD</item>
+        <item>ART</item>
+        <item>Dalvik</item>
+        <item>intent</item>
+        <item>intent filter</item>
+        <item>explicit intent</item>
+        <item>implicit intent</item>
+        <item>LogCat</item>
+        <item>bundle</item>
+        <item>Gradle</item>
+        <item>Android Device Monitor</item>
+        <item>SDK manager</item>
+        <item>minSdkVersion</item>
+    </string-array>
+</resources>
