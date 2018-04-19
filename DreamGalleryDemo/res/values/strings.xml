@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Dream Gallery</string>
+    <string name="tag_activity_main">MainActivity</string>
+    <string name="hint_username_input">account</string>
+    <string name="hint_password_input">password</string>
+    <string name="title_this_app">Dream Gallery</string>
+    <string name="title_login_page">Login via Email</string>
+    <string name="btn_login">Sign In</string>
+    <string name="btn_create">Sign Up</string>
+    <string name="btn_home">Homepage</string>
+    <string name="toast_welcome">Welcome aboard!</string>
+    <string name="toast_error_invalid_password">Invalid password!</string>
+    <string name="warning_time_left">Attempts Left:</string>
+    <string name="menu_about">About</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_close">Close</string>
+    <string name="alert_option_yes">Leave</string>
+    <string name="alert_option_nah">Later</string>
+    <string name="alert_value_close">Are you sure to leave?</string>
+    <string name="alert_title_close">leave action</string>
+    <string name="auth_failed">Failed to access sign up account!</string>
+    <string name="signed_out">Sign Out</string>
+    <string name="login_issue_button_details">False</string>
+    <string name="err_null_email">Email is empty or null!</string>
+    <string name="err_null_pass">Password is empty or null!</string>
+    <string name="err_not_email">Invalid email format!</string>
+    <string name="list_view_image">Thumbnail</string>
+    <string name="infor_loggin_status">"You are logged in as "</string>
+    <string name="btn_ready">Continue</string>
+    <string name="contact_option_add">Add Contact</string>
+    <string name="prompt_name1">First Name(required)</string>
+    <string name="prompt_name2">Last Name (optional)</string>
+    <string name="prompt_title">Job Title (optional)</string>
+    <string name="prompt_email">Email (required)</string>
+    <string name="compose_email">Send Email</string>
+    <string name="menu_detail_help">How can I help you?</string>
+    <string-array name="IconTitle">
+        <item>App Guide</item>
+        <item>My Gallery</item>
+        <item>My Message</item>
+        <item>My Contact</item>
+        <item>My Journal</item>
+        <item>Log Out</item>
+    </string-array>
+    <string-array name="IconDesc">
+        <item>General help information</item>
+        <item>Build my own gallery</item>
+        <item>Internal message from my friends</item>
+        <item>My contact list</item>
+        <item>My Journal</item>
+        <item>See you next time</item>
+    </string-array>
+    <string name="auth_email">jh0429@hotmail.com</string>
+    <string name="intro_app">It is a gallery app with many features that normal gallery apps have or don\'t have, just have fun with that!</string>
+    <string name="err_not_login">Please login first!</string>
+    <string name="img_email_desc">Image view of Email</string>
+    <string name="title_help_service">Email Help Service</string>
+    <string name="email_select_app">Please choose the Email app below :</string>
+    <string name="gallery_greeting">Welcome back!</string>
+    <string name="title_last_time">Last Visit:</string>
+    <string name="last_host">Network:</string>
+    <string-array name="contact_action_array">
+        <item>Send Email</item>
+        <item>Delete Contact</item>
+    </string-array>
+    <string name="no_time">Unknown Time</string>
+    <string name="no_ipv4">Unknown Ip Address</string>
+</resources>

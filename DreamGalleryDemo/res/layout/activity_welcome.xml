@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".WelcomeActivity">
+
+    <TextView android:text="@string/title_login_page" android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/textview"
+              android:textSize="35sp"
+              android:layout_alignParentTop="true"
+              android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:id="@+id/textView"
+        android:layout_below="@+id/textview"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorTitleDreamGallery"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toEndOf="@+id/textview"
+        android:textSize="25sp"
+        android:layout_alignTop="@+id/textView2"/>
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/gallery_face"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/app_name"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:hint="@string/hint_username_input"
+        android:focusable="true"
+        android:textColorHighlight="@color/textHighLight"
+        android:textColorHint="@color/colorHint"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:textColorHint="@color/colorHint"
+        android:hint="@string/hint_password_input"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/warning_time_left"
+        android:id="@+id/textView2"
+        android:textSize="25sp"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_login"
+        android:id="@+id/button"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="27dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_create"
+        android:id="@+id/button2"
+        android:layout_alignBaseline="@+id/button"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignStart="@+id/imageView"
+        style="@style/Widget.AppCompat.Button"/>
+
+    <Button
+        android:text="@string/btn_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginStart="13dp"
+        android:id="@+id/home_page"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/video_firebase_auth"
+        android:layout_below="@+id/textView2"/>
+
+</RelativeLayout>

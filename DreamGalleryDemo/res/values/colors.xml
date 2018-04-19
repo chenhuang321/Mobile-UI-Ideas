@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLeave">#17a79e</color>
+    <color name="colorStay">#17b417</color>
+    <color name="colorTitleDreamGallery">#ce1212</color>
+    <color name="colorHint">#131b8e</color>
+    <color name="textHighLight">#f48208</color>>
+    <color name="countDownHint">#ce1212</color>
+    <color name="skinColorLight">#ffe0bd</color>
+    <color name="leafColorDeep">#228B22</color>
+    <color name="darkOrange">#a34308</color>
+    <color name="normalInputColor">#77100a0a</color>
+</resources>
